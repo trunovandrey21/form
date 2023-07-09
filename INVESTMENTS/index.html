@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>INVESTMENTS</title>
+</head>
+<body>
+    <section class="investmentsSection container">
+        <p class="investments">
+            інвестиції
+        </p>
+        <span>зробити</span>
+        <span>— інвестиції у програму</span>
+    </section>
+    <section class="paymentSection container">
+        <p>виберіть спосіб оплати</p>
+        <div class="paymentBlock">
+            <div class="payMethod">
+                <label for="card"><input name="payment" id="card" type="radio">Банківська карта</label>
+                <label for="pay"><input name="payment" id="pay" type="radio">PayPal</label>
+                <label for="receipt"><input name="payment" id="receipt" type="radio">Банківська платіжна квитанція</label>
+            </div>
+            <div class="bankCard">
+                <div class="sumNumber">
+                <p>банківська карта</p>
+                <label for="50000"><input name="number" id="50000" type="radio">50000</label>
+                <label for="30000"><input name="number" id="30000" type="radio">20000</label>
+                <label for="10000"><input name="number" id="10000" type="radio">10000</label>
+                <label for="1000"><input name="number" id="1000" type="radio">1000</label>
+                </div>
+                <div class="sumBlock">
+                    <input id="sum" placeholder="Інша сумма" type="text">
+                </div>
+                <div class="time">
+                    <label for="month"><input name="time" id="month" type="radio">Щомісячно</label>
+                    <label for="oneTime"><input name="time"  id="oneTime" type="radio">Одноразово</label>
+                </div>
+            </div>  
+        <div class="formSection">
+                <p class="name">ім’я</p>
+                <input placeholder="Напишіть ваше ім’я" type="text">
+                <p class="email">Email</p>
+                <input placeholder="Напишіть вашу електронну адресу" type="email">
+        </div>
+        <div class="checkbox">
+            <label for=""><input type="checkbox">Я приймаю <a href="#">Договір оферти</a></label>
+            <label for=""><input type="checkbox">Я приймаю <a href="#">Угоду про використання персональних даних</a></label>
+        </div>
+        <div class="button">
+            <button>
+                Відправити
+            </button>
+        </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>

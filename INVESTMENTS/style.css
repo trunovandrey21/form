@@ -1,0 +1,153 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.investmentsSection{
+    padding-top: 50px;
+    padding-left: 115px;
+}
+.investments{
+    color: #0536FC;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.investmentsSection span{
+    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -1.14px;
+    text-transform: uppercase;
+    display: flex;
+}
+.paymentSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 70px;
+}
+.paymentSection > p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    padding-right: 105px;
+}
+.payMethod{
+    margin-bottom: 50px;
+}
+.payMethod input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.payMethod label {
+    color: #000;
+    font-family: Basis Grotesque Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    cursor: pointer;
+}
+.sumNumber > p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.sumNumber input{
+    display: none;
+}
+.sumNumber label{
+    border: 1px solid rgba(0, 0, 0, 0.15);;
+    opacity: 0.1px;
+    padding: 15px 50px;
+    margin:-2px;
+}
+.sumNumber label:hover{
+    background: #0536FC;
+    color: #fff;
+}
+.sumBlock input{
+    display: inline-block;
+    width: 456px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);;
+    padding: 15px 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    
+}
+.time{
+    margin-bottom: 30px;
+}
+.formSection > p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.formSection > input{
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    width: 417px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.formSection > input::placeholder{
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    opacity: 0.3499999940395355;
+    
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox > label{
+    padding-top: 10px;
+}
+.button{
+    margin-top: 50px;
+}
+.button > button{
+    background: #0536FC;
+    width: 213px;
+    height: 55px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:1100px){
+    .investmentsSection{
+        padding-left: 0;
+    }
+    .paymentSection{
+        flex-direction: column;
+    }
+}
